@@ -2,10 +2,10 @@
 Contributors: joelcj91,duckdev
 Donate link: https://paypal.me/JoelCJ
 Tags: disqus, disqus conditional load, comment hide, hide disqus, disqus comments, disqus on click, disqus auto load, disqus, woocommerce comments, edd comments
-Requires at least: 3.0
-Tested up to: 5.5
+Requires at least: 4.0
+Tested up to: 5.7
 Requires PHP: 5.6
-Stable tag: 11.0.5
+Stable tag: 11.0.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -40,7 +40,7 @@ DCL is an advanced version of Disqus Commenting System, with which experience th
 > - Easy Digital Downloads support.<br />
 > - Comment Count on Button.<br />
 > - Disqus Comments as Widget.<br />
-> - Disqus **Popular Comments Widget**<br />
+> - Disqus **Latest Comments Widget**<br />
 > - Beautiful inbuilt button styles.<br />
 > - Priority support over email.<br />
 >
@@ -153,6 +153,18 @@ Bug reports for DCL are always welcome. [Report here](https://dclwp.com/bugs/). 
 
 
 == Changelog ==
+
+= 11.0.6 =
+
+**👌 Improvements**
+
+- Update Disqus to latest version.
+- Use new build tools.
+- Test compatibility with WP 5.7
+
+**🐛 Bug Fixes**
+
+- Fix console errors.
 
 = 11.0.5 =
 
@@ -430,8 +442,14 @@ Bug reports for DCL are always welcome. [Report here](https://dclwp.com/bugs/). 
 
 == Upgrade Notice ==
 
-= 11.0.5 =
+= 11.0.6 =
+
+**👌 Improvements**
+
+- Update Disqus to latest version.
+- Use new build tools.
+- Test compatibility with WP 5.7
 
 **🐛 Bug Fixes**
 
-- Fix scroll type JS error.
+- Fix console errors.
